@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import {useCourse} from "~/composables/useCourse";
 
+const course = useCourse();
+console.log(course);
 </script>
 
 <template>

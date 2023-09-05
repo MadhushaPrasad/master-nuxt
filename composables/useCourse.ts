@@ -1,3 +1,4 @@
+import courseData from "~/composables/courseData";
 export const useCourse = () => {
-  return ref()
+  return courseData;
 }
